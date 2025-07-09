@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harika</title>
+</head>
+<body>
+	<div style="color:red">
+		<form action="next.html" method="get">
+			<h1><i><u style='color:Green'>EDUCATION:</u></i></h1>
+		<table border="7">
+			<thead>
+				<tr>
+					<th>organization</th>
+					<th>status</th>
+					<th>Certificates</th>
+					<th>issued</th>
+					<th>about topic</th>
+				</tr>
+			</thead>
+			<br>
+	
+			<tbody>
+					<tr>
+						<td><input type="text" name="schooling" placeholder="schooling" required></td>
+						<td><input type="text" name="" placeholder="present status" required></td>
+						<td><input type="text" name="" placeholder="Certified" required></td>
+						<td><input type="text" name="" placeholder="certificate issued" required><input type='file'></td>
+						<td><input type="text" name="" placeholder="about course" pattern='.{5,10}' title="Enter 5 to 10 character length" required></td>
+					</tr>
+			</tbody>
+			<br>
+			<hr>
+
+			<tbody>
+				<tr>
+				<td><input type="text" name="intermediate" placeholder="intermediate" required></td>
+				<td><input type="text" name="" placeholder="status" required></td>
+				<td><input type="text" name="" placeholder="certified" required></td>
+				<td><input type="text" name="" placeholder="issued" required><input type='file'></td>
+				<td><input type="text" name="" placeholder="about course" pattern='.{5,10}' title="Enter 5 to 10 character length" required></td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td><input type='text' name='' placeholder='graduatio'></td>
+				<td><input type='text' name='' placeholder='status'></td>
+				<td><input type='text' name='' placeholder='certified'></td>
+				<td><input type='text' name='' placeholder='issued'><input type='file'></td>
+				<td><input type="text" name="" placeholder="about course" pattern='.{5,}' title="Enter 5 to 10 character length" required></td>
+			</tr>
+		</tbody>
+		</table>
+		<br>
+		<label><strong>GENDER:</strong></label>
+		<br>
+		<label>Male:
+			<input type="radio" name="gender" value="male"></label>
+		<label>Female:
+			<input type="radio" name="gender" value="female"></label>
+		<label>Custom:
+			<input type="radio" name="gender" value="custom"></label>
+		<br>
+		<br>
+		<label><strong>Mail:
+			<br><input type="email" name="mail" placeholder="svecw@gmail.com" required></strong></label>
+		<h3><u>Display a Telephone Input Field</u></h3>
+		<label><strong>Enter phone number:</strong></label>
+		<input type="tel" id='phone' name='phone' placeholder="1234-45-6789" pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}]" required>
+	    <br><br>
+		<label><strong>BIRTHDAY:<strong></label>
+			<br>
+		<input type="date">
+		<br>
+		<br>
+			<button border="7" type="submit" style="background-color:yellow; color:black;">submit</button>
+
+		
+
+	    </form>
+	</div>
+</body>
+</html>
+
+
